@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magecompany_CustomerRedirect</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This Extension help to Redirect your customers on custom/magento page after customer login/Register. </summary>
+    <description>This Extension help to Redirect your customers on custom/magento page after customer login/Register. </description>
+    <notes>This Extension help to Redirect your customers on custom/magento page after customer login/Register. </notes>
+    <authors><author><name>MageExtension Inc</name><user>MageExtension</user><email>mageextension2014@gmail.com</email></author></authors>
+    <date>2014-12-04</date>
+    <time>07:12:43</time>
+    <contents><target name="magecommunity"><dir name="Mageextension"><dir name="Customer"><dir name="Helper"><file name="Data.php" hash="1ca7a8fe82b3553ea5b1c743c5ed5b89"/></dir><dir name="controllers"><file name="AccountController.php" hash="7a19ef8fb32fafa4e1725cd6fe4fe34f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="51964739d4b6f9e105ea55717fd8d588"/><file name="config.xml" hash="597ede288e5af679a768ddc1cc5cca16"/><file name="system.xml" hash="7d7528b304f17c62293680c0eadeffab"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mageextension_Customer.xml" hash="292e0fb2f476d774a54c957608e272e5"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

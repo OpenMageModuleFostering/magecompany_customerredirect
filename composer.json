@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Magecompany_CustomerRedirect",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "This Extension help to Redirect your customers on custom/magento page after customer login/Register. ",
+    "authors": [
+    {
+        "name": "MageExtension Inc",
+        "email": "mageextension2014@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

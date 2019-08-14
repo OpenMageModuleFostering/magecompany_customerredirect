@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <menu>
+        <mageextension translate="title" module="mageextension">
+            <title>Mage Extension</title>
+            <sort_order>50</sort_order>
+            <children>
+                <extension>
+                    <title>Customer Redirect Configuration</title>
+                    <sort_order>1</sort_order>
+                    <action>adminhtml/system_config/edit/section/mageextension/index</action>
+                </extension>
+            </children>
+        </mageextension>
+    </menu>
+</config> 

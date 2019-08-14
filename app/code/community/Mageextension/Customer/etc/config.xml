@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mageextension_Customer>
+            <version>1.1.0</version>
+        </Mageextension_Customer>
+    </modules>
+    <frontend>
+        <routers>
+            <customer>
+			
+                <args>
+				
+                    <modules>
+                        <mageextension_customer before="Mage_Customer">Mageextension_Customer</mageextension_customer>
+                    </modules>
+					
+                </args>
+		
+            </customer>
+        </routers>
+    </frontend>    
+    <global>  
+        <helpers>
+            <mageextension>
+                <class>Mageextension_Customer_Helper</class>
+            </mageextension>
+        </helpers>
+    </global>
+	<adminhtml>
+	<acl>
+            <resources>
+			 <all>
+                <title>Allow everything</title>
+            </all>
+                <admin>  
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                           <mageextension translate="title" module="mageextension">  
+                                                <title>Customer Redirect setting</title>  
+                                                <sort_order>99</sort_order>
+                                            </mageextension>
+                                    </children>
+                                </config>
+                           </children>
+                       </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+		</adminhtml>
+</config>
