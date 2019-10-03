@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Magecompany_CustomerRedirect",
+    "name": "openmage-module-fostering\/magecompany_customerredirect",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This Extension help to Redirect your customers on custom\/magento page after customer login\/Register. ",
     "authors": [
